@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Portal de noticias galaticas</title>
+    <script src="src/Components/TituloDinamico.js" defer></script>
+    <script src="src/Components/CardNews.js" defer></script>
+
+</head>
+<body>
+    <div class="container">
+
+        <div class="card">
+            <div class="card_left">
+                <span>By Vinicius Valentim</span>
+                <h1>Darth Vader Contrata Devs</h1>
+                <p>Darth Vader procura desenvolvedores que sabem trabalhar com componentes.</p>
+            </div>
+            <div class="card_right">
+                <img src="assets/asset-vader.png" alt="imagem do Darth Vader">
+            </div>
+        </div>
+    </div>
+
+    <card-news
+        autor="Vinicius Valentim"
+        title="Darth Vader Contrata Devs"
+        content="Darth Vader procura desenvolvedores que sabem trabalhar com componentes."
+        link-url="https://www.google.com/"
+    >
+    </card-news>
+    <card-news
+        autor="Livia"
+        title="Eu amo muito a Livia"
+        content="Estou doente de amor procurei remedio na vida noturna"
+    >
+    </card-news>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
